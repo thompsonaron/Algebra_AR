@@ -1,0 +1,24 @@
+VR AR TUTORIAL
+
+1) Wikitude account 
+2) Download and install android studio OR DONT - install unity android support
+3) Download wikitude SDK and pull wikitude package into Unity project - UNITY PROFESSIONAL SDK
+4) Set image project and image in wikitude studio - https://studio.wikitude.com/projects
+4.5) Generate and download SDK key
+4.6) Download WTC/ZIP
+5) Switch build to android in unity build and change in Project settings>Player>Android>Other>Minimum API lvl to 8
+
+0) In project settings - player - enable XR
+1)Remove unity camera and from Wikitude > Prefabs put their camera
+2) Put image tracker in scene from Wikitude > Prefabs 
+3) Create some 3d sphere or something
+3.5) In Wikitude Camera copy paste Wikitude License Key that I downloaded
+4) On ImageTracker set Target Collection: tracker.wtc that I downloaded after I made project in wikitude studio
+5) On ImageTracker sub obj Trackable set Drawable 3D object
+
+On tracker - click preview below picture image
+
+
+za Mixamo kad u importu nestane materijal itd. ODI U RIG > Generate.. nesto
+
+SKRIPTU ZAKELJITI NA PREFAB
